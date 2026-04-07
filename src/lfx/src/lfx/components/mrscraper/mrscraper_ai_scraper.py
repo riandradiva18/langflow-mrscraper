@@ -43,7 +43,9 @@ class MrscraperAiScraper(Component):
             display_name="Agent Type",
             options=["general", "listing", "map"],
             value="general",
-            info=('"general" works on almost any page. "listing" is optimised for listing/grid pages. "map_agent" is optimised for map pages.'),
+            info=(
+                '"general" works on almost any page. "listing" is optimised for listing/grid pages. "map agent" is optimised for map pages.'
+            ),
         ),
         StrInput(
             name="proxy_country",
