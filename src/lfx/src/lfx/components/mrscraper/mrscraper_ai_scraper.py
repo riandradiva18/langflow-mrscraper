@@ -41,9 +41,9 @@ class MrscraperAiScraper(Component):
         DropdownInput(
             name="agent",
             display_name="Agent Type",
-            options=["general", "listing"],
+            options=["general", "listing", "map"],
             value="general",
-            info=('"general" works on almost any page. "listing" is optimised for listing/grid pages.'),
+            info=('"general" works on almost any page. "listing" is optimised for listing/grid pages. "map_agent" is optimised for map pages.'),
         ),
         StrInput(
             name="proxy_country",
